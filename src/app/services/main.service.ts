@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
 export class MainService {
   constructor(private http: HttpClient) {}
 
-  pushData(data) {
-    return this.http.post('https://kpriza-4d47b.firebaseio.com/', data);
-  }
+  // pushData(data) {
+  //   return this.http.post('https://kpriza-4d47b.firebaseio.com/', data);
+  // }
 }
